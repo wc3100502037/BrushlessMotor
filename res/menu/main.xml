@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_setPhoneNumber"
+        android:icon="@drawable/sys2"
+     
+        android:title="@string/menu_PhoneNumber_title"/>
+    
+    <item
+        android:id="@+id/menu_setIpAdress"
+        android:icon="@drawable/sys2"
+  
+        android:title="@string/menu_IpAdress_title"/>
+    
+    <item
+        android:id="@+id/menu_viewPreInstructor"
+        android:icon="@drawable/sys2"
+      
+        android:title="@string/menu_viewPreInstructor_title"/>
+
+</menu>

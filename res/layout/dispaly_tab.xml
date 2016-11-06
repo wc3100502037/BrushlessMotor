@@ -1,0 +1,362 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#77AADF"
+   >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="卷盘喷灌机型号：JP50"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+        
+    </LinearLayout>
+    
+ 
+   <!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss --> 
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="0.8"
+       android:background="@drawable/pic_tip_bai_bg"
+       android:orientation="vertical">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.1"
+            android:text="                          卷盘工况"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_weight="1">
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2.3"
+               android:textColor="#000000"
+               android:gravity="fill_vertical|center_horizontal"
+               android:text="总层数："/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2"
+               android:textColor="#000000"
+               android:text="  "/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2.3"
+               android:textColor="#000000"
+               android:gravity="fill_vertical|center_horizontal"
+               android:text="大直径："/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2"
+               android:text="  "/>
+           
+       </LinearLayout>
+       
+       
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_weight="1">
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2.3"
+               android:textColor="#000000"
+               android:textSize="12sp"
+               android:gravity="fill_vertical|center_horizontal"
+               android:text="每层圈数："/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2"
+               android:textColor="#000000"
+               android:text="  "/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2.3"
+               android:textColor="#000000"
+               android:gravity="fill_vertical|center_horizontal"
+               android:text="小直径："/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2"
+               android:textColor="#000000"
+               android:text="  "/>
+           
+       </LinearLayout>
+       
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_weight="1">
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2.3"
+               android:textColor="#000000"
+               android:gravity="center_vertical|center_horizontal"
+               android:textSize="12sp"
+               android:text="每层齿数："/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2"
+               android:textColor="#000000"
+               android:text="  "/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2.3"
+               android:textColor="#000000"
+               android:gravity="fill_vertical|center_horizontal"
+               android:text="传动比："/>
+           
+           <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="2"
+               android:textColor="#000000"
+               android:text="  "/>
+           
+       </LinearLayout>
+       
+       
+       
+       
+   </LinearLayout>
+   
+   
+   
+   
+   
+   
+    <!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+   
+   <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="设定转速："
+             android:textSize="20sp"
+             android:textColor="#ffffff"
+            android:gravity="fill_vertical|center_horizontal"
+            android:layout_weight="1.2"/>
+       
+        <RadioGroup 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RadioButton 
+                android:id="@+id/AutoMode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:textColor="#ffffff"
+                android:text="自动模式"/>
+            <RadioButton 
+                android:id="@+id/ManulMode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                 android:textColor="#ffffff"
+        
+                android:text="手动模式"
+                android:textSize="12sp"/>
+            
+            
+        </RadioGroup>
+        
+    </LinearLayout>
+ <!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->    
+     
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/shapexml"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="电机转速："
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   r/min"
+             android:layout_weight="1"
+             android:textSize="20sp"
+             android:textColor="#ffffff"
+            android:gravity="fill_vertical|center_horizontal"/>
+        
+    </LinearLayout>
+<!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->  
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/shapexml"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="回收转速："
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:gravity="fill_vertical|center_horizontal"
+            android:layout_weight="1"/>
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   m/h"
+             android:layout_weight="1"
+             android:textColor="#ffffff"
+             android:textSize="20sp"
+            android:gravity="fill_vertical|center_horizontal"/>
+        
+    </LinearLayout>   
+    
+ <!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->  
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+         android:background="@drawable/shapexml"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="电压："
+            android:gravity="fill_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   V"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+             android:layout_weight="1"
+            android:gravity="fill_vertical|center_horizontal"/>
+        
+    </LinearLayout>
+<!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+         android:background="@drawable/shapexml"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="电机电流："
+            android:gravity="fill_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   A"
+             android:layout_weight="1"
+             android:textSize="20sp"
+             android:textColor="#ffffff"
+            android:gravity="fill_vertical|center_horizontal"/>
+        
+    </LinearLayout>
+<!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss --> 
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/shapexml"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="电池电流："
+            android:gravity="fill_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   A"
+             android:layout_weight="1"
+             android:textSize="20sp"
+             android:textColor="#ffffff"
+            android:gravity="fill_vertical|center_horizontal"/>
+        
+    </LinearLayout>
+<!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss --> 
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+         android:background="@drawable/shapexml"
+        android:layout_weight="1">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="电池电量："
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="   A.h"
+             android:layout_weight="1"
+             android:textSize="20sp"
+             android:textColor="#ffffff"
+            android:gravity="fill_vertical|center_horizontal"/>
+        
+    </LinearLayout>
+
+  
+
+</LinearLayout>    
+
+
+
