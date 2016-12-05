@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrushlessMotor</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="menu_PhoneNumber_title">设置默认号码</string>
+    <string name="menu_viewPreInstructor_title">查看历史命令</string>
+    <string name="menu_IpAdress_title">设置默认IP</string>
+    <string name="set_phonenum_disInfo">设置默认号码</string>
+    <string name="set_phonenum_YES">确认</string>
+    <string name="set_phonenum_NO">取消</string>
+</resources>
